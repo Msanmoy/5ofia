@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="theme-color" content="#f8f5f0">
+    <title>Para Ti</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-elements">
+        <div class="butterflies-container"></div>
+        <div class="floating-hearts"></div>
+    </div>
+    
+    <main class="container">
+        <article class="letter">
+            <header class="letter-header">
+                <div class="decorative-line"></div>
+                <h1>Para Sofía</h1>
+                <div class="decorative-line"></div>
+            </header>
+            
+            <div class="letter-content">
+                <section class="message-section" data-delay="0">
+                    <p class="paragraph">Estaba pensando en tu sonrisa aquel día que fuimos al mariposario de Benalmádena y <span class="butterfly-link" id="openButterflyModal">se posó una mariposa en tú pecho</span> y me di cuenta que después de cerca de tres años, no es que te siga queriendo igual, sino que te quiero muchísimo más. Por todos esos momentos que hemos compartido, por esas "locuras" que me has hecho hacer, como tirarme del Veleta la primera vez, o cruzarnos España en coche para ir a una aldea "remota" en Galicia a surfear, o mismamente plantearme tirarme en paracaídas contigo (esto si que es loco, y mira que no lo hemos hecho todavía).</p>
+                </section>
+                
+                <div class="modal-overlay" id="butterflyModal">
+                    <div class="modal-container">
+                        <button class="modal-close" id="closeButterflyModal" aria-label="Cerrar">×</button>
+                        <div class="modal-content">
+                            <video class="butterfly-video-modal" autoplay loop muted playsinline controls>
+                                <source src="sources/Mariposa.mp4" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                
+                <section class="message-section" data-delay="1">
+                    <p class="paragraph">En esta carta te reconozco que me has hecho una mejor persona. Y no lo digo solo porque mi nivel de paciencia ha aumentado muy significativamente (que también jsjsjs), sino porque has hecho que tenga un montón de experiencias increíbles. Aunque me digas que es cursi, hasta hincharme a vino blanco haciendo pulseras y collares rodeado de mujeres me encantó, simplemente porque estaba ahí contigo.</p>
+                </section>
+                
+                <section class="message-section" data-delay="2">
+                    <p class="paragraph">Sabes que? Una de las cosas de las que más me rio de ti, es una de las cosas que más me gustan de ti, y es tu risa, de verdad, es preciosa, incluso cuando llega al punto máximo y suena como un disco rallado. Es perfecta!</p>
+                    <p class="paragraph highlight">Aunque me voy a seguir riendo de ella ;)</p>
+                </section>
+                
+                <section class="message-section" data-delay="3">
+                    <p class="paragraph">No se que pasará este año, ni el que viene, ni el siguiente, ni el otro, ni …, pero lo que se es que quiero seguir compartiendo momentos contigo, siempre ayudándote todo lo que pueda y tratando siempre de ser mejor cada día.</p>
+                    <p class="paragraph">Y sí, tiraré las cosas a la basura para que no se mueran las tortugas</p>
+                </section>
+                
+                <section class="message-section final-section" data-delay="4">
+                    <div class="decorative-line"></div>
+                    <p class="paragraph final-text">Te quiero muchísimo <span class="heart-icon">❤️</span></p>
+                </section>
+            </div>
+        </article>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
